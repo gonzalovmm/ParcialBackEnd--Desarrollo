@@ -114,6 +114,11 @@ El proyecto está diseñado para ser desplegado en **Render**. A continuación, 
 
 ![1000peticiones](./Jmeter/1000test.png)
 
+---
+
+## Autor
+
+Gonzalo Van Megroot
 
 
 
