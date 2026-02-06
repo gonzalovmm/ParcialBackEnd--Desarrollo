@@ -1,17 +1,23 @@
-# Parcial BackEnd - Mutantes
+# API REST – Detección de ADN Mutante (Proyecto Académico)
 
-**Alumno**: Gonzalo Van Megroot - 49510
+Proyecto académico desarrollado para una evaluación de **BackEnd** en la carrera Ingeniería en Sistemas (UTN FRM).
 
-**Comisión**: 3K10
+Este repositorio se publica con fines de **portfolio personal**, con el objetivo de mostrar el desarrollo de una API REST en Java utilizando Spring Boot, incluyendo lógica de negocio, persistencia, documentación y despliegue.
 
+---
 
 ## Descripción
 
-Este proyecto es una API REST desarrollada con Spring Boot que permite analizar secuencias de ADN para determinar si corresponden a un mutante o un humano. Además, proporciona estadísticas sobre la cantidad de ADN evaluados, tanto mutantes como humanos, y el ratio entre ellos.
+La aplicación consiste en una **API REST** que analiza secuencias de ADN para determinar si corresponden a un **mutante** o a un **humano**.
 
-El proyecto fue generado utilizando Spring Initializr, con las dependencias clave: Spring Web, Lombok, SpringBoot Dev Tools, H2 Database, y Spring Data JPA.
+Además, expone estadísticas agregadas sobre los análisis realizados, incluyendo:
+- cantidad de ADN mutantes,
+- cantidad de ADN humanos,
+- ratio entre ambos.
 
-La API está diseñada para ser desplegada en la plataforma Render, lo que permite que esté accesible tanto localmente como en producción. Además, se incluye una interfaz Swagger para interactuar con los endpoints de manera sencilla.
+La API fue diseñada para ejecutarse tanto en entorno local como en producción, y cuenta con documentación interactiva mediante Swagger.
+
+---
 
 ### Endpoints principales:
 
